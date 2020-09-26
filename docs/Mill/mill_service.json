@@ -1,0 +1,35 @@
+{
+  "id": "Three Peer TEST",
+  "version": "0.2",
+  "name": "Three Peer TEST",
+  "descriptionText": "Three Peer TEST",
+  "configuration": [{
+      "softwareItemId": "inputPMIN.js",
+      "instanceId": "inputPMIN.js0",
+      "targetMinionIds": ["runtimeenv"],
+      "name": "Sensor Acc.",
+      "type": "P"
+     },
+     {
+        "softwareItemId": "PeerCommunicator.js", 
+        "instanceId": "peercommunicator", 
+        "targetMinionIds": [], 
+        "name": "Communicator",
+        "type": "C", 
+        "description": "Send Mill to Farmer", 
+        "defaultShow": true 
+      },
+       {
+          "softwareItemId": "runtimeenv.js", 
+          "instanceId": "runtimeenv", 
+          "targetMinionIds": ["peercommunicator"], 
+          "name": "Thinker",
+          "type": "T", 
+          "description": "Send result to communicator", 
+          "defaultShow": true 
+        }
+    ],
+      "context": {}
+  
+}
+

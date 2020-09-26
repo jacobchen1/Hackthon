@@ -1,0 +1,23 @@
+{
+  "id": "ProductionForcastingService",
+  "version": "0.1",
+  "name": "Demand forecasting for production quantities",
+  "descriptionText": "This service can forecast production quantities based on historical data.",
+  "configuration": [{
+    "softwareItemId": "https://localhost:5000/showcases/tucanaHackthon/service/fetchdata.js",
+    "instanceId": "fetchdata0",
+    "targetMinionIds": ["forecastquantities1"],
+    "name": "Production History Data Connector",
+    "type": "P",
+    "defaultShow": false
+  }, {
+    "softwareItemId": "https://localhost:5000/showcases/tucanaHackthon/service/forecastquantities.js",
+    "instanceId": "forecastquantities1",
+    "targetMinionIds": [],
+    "name": "Demand Forecasting",
+    "type": "T",
+    "defaultShow": false
+  }
+  ],
+  "context": {}
+}

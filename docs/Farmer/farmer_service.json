@@ -1,0 +1,48 @@
+{
+  "id": "Three Peer TEST",
+  "version": "0.2",
+  "name": "Three Peer TEST",
+  "descriptionText": "Three Peer TEST",
+  "configuration": [{
+    "softwareItemId": "inputPMIN.js",
+    "instanceId": "inputPMIN.js0",
+    "targetMinionIds": ["peercommunicator"],
+    "name": "Sensor Acc.",
+    "type": "P"
+  },{
+       "softwareItemId": "PeerCommunicator.js", 
+      "instanceId": "peercommunicator", 
+      "targetMinionIds": [], 
+      "name": "Communicator",
+       "type": "C", 
+       "description": "Send Data to Store", 
+       "defaultShow": true 
+      },{
+        "softwareItemId": "receiverFarmer.js", 
+       "instanceId": "receiverFarmer", 
+       "targetMinionIds": ["aggregatorFarmer"], 
+       "name": "perceiver",
+        "type": "P", 
+        "description": "Send Data to Store", 
+        "defaultShow": true 
+      },{
+        "softwareItemId": "aggregatorFarmer.js", 
+       "instanceId": "aggregatorFarmer", 
+       "targetMinionIds": ["visualizerFarmer"], 
+       "name": "thinker",
+        "type": "T", 
+        "description": "Send Data to Store", 
+        "defaultShow": true 
+      },
+      {
+        "softwareItemId": "visualizerFarmer.js", 
+       "instanceId": "visualizerFarmer", 
+       "targetMinionIds": [], 
+       "name": "visualizer",
+        "type": "C", 
+        "description": "Send Data to Store", 
+        "defaultShow": true 
+      }
+       ],
+  "context": {}
+}
