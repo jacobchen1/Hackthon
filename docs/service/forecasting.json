@@ -5,14 +5,14 @@
   "descriptionText": "This service can forecast production quantities based on historical data.",
   "configuration": [{
     "softwareItemId": "fetchdata.js",
-    "instanceId": "https://github.com/jacobchen1/Hackthon/blob/master/docs/service/fetchdata.js",
-    "targetMinionIds": ["https://github.com/jacobchen1/Hackthon/blob/master/docs/service/forecastquantities.js"],
+    "instanceId": "https://raw.githubusercontent.com/jacobchen1/Hackthon/master/docs/service/fetchdata.js",
+    "targetMinionIds": ["https://raw.githubusercontent.com/jacobchen1/Hackthon/master/docs/service/forecastquantities.js"],
     "name": "Production History Data Connector",
     "type": "P",
     "defaultShow": false
   }, {
     "softwareItemId": "forecastquantities.js",
-    "instanceId": "https://github.com/jacobchen1/Hackthon/blob/master/docs/service/forecastquantities.js",
+    "instanceId": "https://raw.githubusercontent.com/jacobchen1/Hackthon/master/docs/service/forecastquantities.js",
     "targetMinionIds": [],
     "name": "Demand Forecasting",
     "type": "T",
