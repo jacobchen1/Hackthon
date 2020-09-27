@@ -4,15 +4,15 @@
   "name": "Demand forecasting for production quantities",
   "descriptionText": "This service can forecast production quantities based on historical data.",
   "configuration": [{
-    "softwareItemId": "https://gist.githubusercontent.com/jacobchen1/8cfeb2a0e43320f4a79e16caf5dd2b93/raw/1eb3cbad9c3a609b156b907bc8fc9a37eeadf526/fetchdata1.js",
-    "instanceId": "https://gist.githubusercontent.com/jacobchen1/8cfeb2a0e43320f4a79e16caf5dd2b93/raw/1eb3cbad9c3a609b156b907bc8fc9a37eeadf526/fetchdata1.js",
-    "targetMinionIds": ["https://gist.githubusercontent.com/jacobchen1/ab90774f331520e77bbe92b0975b3b3e/raw/f82b6037f59d7c7569521dd98fa78cf7d62bc2c9/forecastquantities1.js"],
+    "softwareItemId": "https://gist.githubusercontent.com/jacobchen1/8cfeb2a0e43320f4a79e16caf5dd2b93/raw/7afc7b30fb70e7d5c035c647c9624af0974f530b/fetchdata.js",
+    "instanceId": "https://gist.githubusercontent.com/jacobchen1/8cfeb2a0e43320f4a79e16caf5dd2b93/raw/7afc7b30fb70e7d5c035c647c9624af0974f530b/fetchdata.js",
+    "targetMinionIds": ["https://gist.githubusercontent.com/jacobchen1/ab90774f331520e77bbe92b0975b3b3e/raw/bfd50effdf5f6902e1ad582f95ef01b4cac686c4/forecastquantities.js"],
     "name": "Production History Data Connector",
     "type": "P",
     "defaultShow": false
   }, {
-    "softwareItemId": "https://gist.githubusercontent.com/jacobchen1/ab90774f331520e77bbe92b0975b3b3e/raw/f82b6037f59d7c7569521dd98fa78cf7d62bc2c9/forecastquantities1.js",
-    "instanceId": "https://gist.githubusercontent.com/jacobchen1/ab90774f331520e77bbe92b0975b3b3e/raw/f82b6037f59d7c7569521dd98fa78cf7d62bc2c9/forecastquantities1.js",
+    "softwareItemId": "https://gist.githubusercontent.com/jacobchen1/ab90774f331520e77bbe92b0975b3b3e/raw/bfd50effdf5f6902e1ad582f95ef01b4cac686c4/forecastquantities.js",
+    "instanceId": "https://gist.githubusercontent.com/jacobchen1/ab90774f331520e77bbe92b0975b3b3e/raw/bfd50effdf5f6902e1ad582f95ef01b4cac686c4/forecastquantities.js",
     "targetMinionIds": [],
     "name": "Demand Forecasting",
     "type": "T",
