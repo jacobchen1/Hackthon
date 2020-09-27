@@ -5,14 +5,14 @@
   "descriptionText": "This service can forecast production quantities based on historical data.",
   "configuration": [{
     "softwareItemId": "fetchdata.js",
-    "instanceId": "https://gist.githubusercontent.com/jacobchen1/8347e5a731b0a3ffc331ddc23820430d/raw/09ca01edab7121a071087e8b0db892f3851664da/fetchdata.js0",
-    "targetMinionIds": ["https://gist.githubusercontent.com/jacobchen1/788c3cd526c3b8e577ef5b6d1e094aaa/raw/dbf3c01c8f8a59177b60387a2b565e423c7091bb/forecastquantities.js0"],
+    "instanceId": "https://gist.githubusercontent.com/jacobchen1/8347e5a731b0a3ffc331ddc23820430d/raw/09ca01edab7121a071087e8b0db892f3851664da/fetchdata.js",
+    "targetMinionIds": ["https://gist.githubusercontent.com/jacobchen1/788c3cd526c3b8e577ef5b6d1e094aaa/raw/dbf3c01c8f8a59177b60387a2b565e423c7091bb/forecastquantities.js"],
     "name": "Production History Data Connector",
     "type": "P",
     "defaultShow": false
   }, {
     "softwareItemId": "forecastquantities.js",
-    "instanceId": "https://gist.githubusercontent.com/jacobchen1/788c3cd526c3b8e577ef5b6d1e094aaa/raw/dbf3c01c8f8a59177b60387a2b565e423c7091bb/forecastquantities.js0",
+    "instanceId": "https://gist.githubusercontent.com/jacobchen1/788c3cd526c3b8e577ef5b6d1e094aaa/raw/dbf3c01c8f8a59177b60387a2b565e423c7091bb/forecastquantities.js",
     "targetMinionIds": [],
     "name": "Demand Forecasting",
     "type": "T",
